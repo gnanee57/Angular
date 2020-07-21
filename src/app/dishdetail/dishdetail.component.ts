@@ -129,7 +129,7 @@ export class DishdetailComponent implements OnInit {
     this.commentForm.reset({
       rating: 5,
       comment: '',
-      author: '',
+      author: ''
     });
     this.commentFormDirective.resetForm();
   }
